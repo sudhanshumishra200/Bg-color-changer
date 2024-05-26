@@ -14,7 +14,7 @@ function App() {
         const colors = ['green', 'red', 'blue', 'yellow'];
         const randomColor = colors[Math.floor(Math.random() * colors.length)];
         setColor(randomColor);
-      }, 100); // Change color every 0.1 second (100 milliseconds)
+      }, 1000); // Change color every 0.1 second (100 milliseconds)
     } else {
       clearInterval(intervalId);
     }
